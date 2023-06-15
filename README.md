@@ -2,7 +2,7 @@
 
 > Created by Rainzor
 
-The basic properties of graphene: structure, dispersion,DOS and energy bands. You can see [docs(CN)](/docs) for more detail.
+The basic properties of graphene: structure, dispersion,DOS and energy bands. You can see [docs(CN)](/docs) for more detail. The source code is in [src](/src).
 
 ### Structure
 
