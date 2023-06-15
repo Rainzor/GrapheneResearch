@@ -512,7 +512,7 @@ $$
 \begin{aligned}
 C_V&=\sum_qk_B\left(\frac{\hbar w_q}{k_BT}\right)^2\frac{\exp(\frac{\hbar w_q}{k_BT})}{\left(\exp(\frac{\hbar w_q}{k_BT})-1\right)^2}\\
 &=\int_0^{w_D}dw\cdot g(w) k_B\left(\frac{\hbar w}{k_BT}\right)^2\frac{\exp(\frac{\hbar w}{k_BT})}{\left(\exp(\frac{\hbar w}{k_BT})-1\right)^2}\\
-(T\rarr0)\quad&=12Nk_B\left(\frac{T}{T_D}\right)^2\int_0^{\infty}\frac{e^x x^3}{(e^x-1)^2}dx
+(T\rightarrow0)\quad&=12Nk_B\left(\frac{T}{T_D}\right)^2\int_0^{\infty}\frac{e^x x^3}{(e^x-1)^2}dx
 \end{aligned}
 $$
 
@@ -555,7 +555,7 @@ $$
 $$
 \begin{aligned}
 C_V&=\int_0^{w_D}dw\cdot g(w) k_B\left(\frac{\hbar w}{k_BT}\right)^2\frac{\exp(\frac{\hbar w}{k_BT})}{\left(\exp(\frac{\hbar w}{k_BT})-1\right)^2}\\
-(T\rarr0)\quad&=\left(\frac{k_B^3S}{\pi v_g^2\hbar^2}\int_0^\infty\frac{e^x x^3}{(e^x-1)^2}dx\right)\times T^2+
+(T\rightarrow0)\quad&=\left(\frac{k_B^3S}{\pi v_g^2\hbar^2}\int_0^\infty\frac{e^x x^3}{(e^x-1)^2}dx\right)\times T^2+
 \left(\frac{k_B^2S}{4\pi \alpha\hbar}\int_0^\infty\frac{e^xx^2}{(e^x-1)^2}dx\right)\times T\\
 &=AT^2+BT
 \end{aligned}
@@ -728,29 +728,29 @@ $$
 
 结合（5.4）式有解条件以及（5.5）（5.7）（5.8），有
 
+
 $$
 det(H-E_kS)=0\\
-
 H=
 \begin{bmatrix}\varepsilon_{2p}&-\gamma_0f(\mathbf k)\\
-
 -\gamma_0f^*(\mathbf k)&\varepsilon_{2p}
 \end{bmatrix}\\
-
 S=
 \begin{bmatrix}1&-s_0f(\mathbf k)\\
 -s_0f^*(\mathbf k)&1
 \end{bmatrix}
 $$
 
-得到方程的解为
 
+得到方程的解为
 $$
 E_k=\frac{\varepsilon_{2p}\pm\gamma_0|f(\mathbf k)|}{1\mp s_0|f(\mathbf k)|} \tag{5.9}
 $$
 
-其中 $ |f(\mathbf k)|=\sqrt{1+4\cos(\sqrt3k_xa/2)\cos(k_ya/2)+4\cos^2(k_ya/2)}$ ；查阅文献[<sup>[9]</sup>](#refer-anchor-9) 可得 $\bf{\gamma_0=3.033 eV,s_0=0.129eV}$，并取 $\varepsilon_{2p}=0eV$
-
+其中查阅文献[<sup>[9]</sup>](#refer-anchor-9) 可得 $\bf{\gamma_0=3.033 eV,s_0=0.129eV}$，并取 $\varepsilon_{2p}=0eV$, 而 $\vert f(k)\vert$
+$$
+|f(\mathbf k)|=\sqrt{1+4\cos(\sqrt3k_xa/2)\cos(k_ya/2)+4\cos^2(k_ya/2)}
+$$
 根据(5.9)可以画出 $ \pi  $  轨道的能带结构（ `energy_band.m`）
 
 <center>
