@@ -102,7 +102,7 @@ $$
 
 其中 $m_e$ 为电子质量。而 $V_1$ 为金属化能, $V_1=(\epsilon_s-\epsilon_p)/4=2.08 eV$, $\epsilon_s$ 和 $\epsilon_p$ 分别是 $s$ 和 $p$ 态电子的能量;  $R=10.08eV\times(10^{-10}m)^{12}$ , $\beta_2$ 是与维数有关的参量, 对石墨烯 $\beta_2=2/3$
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -118,7 +118,7 @@ $$
         Figure 3.1. 结合能
     </div>
     <p> </p>
-</p>
+</div>
 
 
 求导可以得到稳定平衡点
@@ -207,7 +207,7 @@ $$
 
 同时为了简化问题，只考虑到第4近邻的原子作用 [<sup>[6]</sup>](#refer-anchor-6)
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -229,7 +229,7 @@ $$
 
 A原子最邻近的原子有 $B_1,B_2,B_3$ [<sup>[6]</sup>](#refer-anchor-6)
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -276,7 +276,7 @@ $$
 
 对于考虑到第4临界的弹性张量矩阵，在特征空间下矩阵的值为 [<sup>6</sup>](#refer-anchor-6)
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -300,7 +300,7 @@ $$
 
 ##### 三维
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -322,11 +322,11 @@ $$
 
 当沿着 $\Gamma,M,K,\Gamma$ 方向画出平面色散关系
 
-<p align="center">
+<div align=center>
 <img src="./assets/graphene2.jpg" style="zoom:50%;" />
 </div>
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -347,7 +347,7 @@ $$
 
 ##### X-W投影平面
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -402,7 +402,7 @@ $$
 
 利用提供的代码 `DOS_frequency.m`， 对第一布里渊区内进行统计，可以得到如下频率态密度分布
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -422,7 +422,7 @@ $$
 
 在频率较低处是声学支占主导，态密度近似为单调的线性函数形式，但是在$1.5\times10^{14}$ 以及在大于 $2.5\times 10^{14}$ 处光学支发挥作用，态密度激增。(文献中给出的态密度如下)[<sup>[7]</sup>](#refer-anchor-7) 
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -493,9 +493,9 @@ $$
 \frac{3}{v_s^2}=\frac1{v_{TA}^2}+\frac1{v_{LA}^2}+\frac1{v^2_{ZA}}
 $$
 
-<p align="center">
+<div align=center>
 <img src="./assets/project_x_w_bad.png" width="300" />
-<p align="center">
+<div align=center>
 
 
 对于弹性波，二维平面中色散关系是
@@ -531,9 +531,9 @@ $$
 
 从下图可以看到，对于 ZA 模，色散关系更加接近二次关系
 
-<p align="center">
+<div align=center>
 <img src="./assets/project_x_w.png" width="300" />
-<p align="center">
+<div align=center>
 
 而且实际的Debye温度 $T_D^{exp}=2100K$,与 4.4.2中求出 $1273.24K$ 相比，差距比较大，
 
@@ -574,7 +574,7 @@ $$
 
 可以看到在极低温处，**热容应当是与温度呈线性**，其中 $A=5.8\times10^{-5},B=2.6\times 10^{-2}$,修正后图像如下，在 $0-100K$ 范围内保持了良好的线性
 
-<p align="center">
+<div align=center>
 <img src="./assets/fit_Cp_100.png" style="zoom:50%;" />
 </div>
 
@@ -582,7 +582,7 @@ $$
 
 根据晶格动力学求解出的态密度分布：
 
-<p align="center">
+<div align=center>
 <img src="./assets/DOS.png" style="zoom: 15%;" />
 </div>
 
@@ -592,7 +592,7 @@ $$
 C_V=\sum_qk_B\left(\frac{\hbar w_q}{k_BT}\right)^2\frac{\exp(\frac{\hbar w_q}{k_BT})}{\left(\exp(\frac{\hbar w_q}{k_BT})-1\right)^2}
 $$
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -697,7 +697,7 @@ $$
 
 对于此表达式，只考虑最邻近原子相互作用，如下:
 
-<p align="center">
+<div align=center>
 <img src="./assets/graphene3.png" style="zoom:50%;" />
 </div>
 
@@ -782,7 +782,7 @@ $$
 
 根据(5.9)可以画出 $\pi$ 轨道的能带结构（ `energy_band.m`）
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -810,7 +810,7 @@ $$
 
 由于已经求出了能带结构，很自然的可以画出能态密度（`DOS_energy.m`）
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -843,7 +843,7 @@ $$
 
 其中 $\rho_m=\frac{4}{[1+2\ln(D/\Delta)]\Delta},\Delta=6eV,D=18.4eV$ ，得到下图
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -855,7 +855,7 @@ $$
 
 还有一种表示形式是： [<sup>[2]</sup>](#refer-anchor-2)
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -867,7 +867,7 @@ $$
 
 其中 $\bf F(\pi/2,x)$ 是第一类椭圆积分，图像如下
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -881,7 +881,7 @@ $$
 
 对于 $M$ 处的电子态密度具有 Van Hove 奇点
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -904,7 +904,7 @@ $$
 
 如果只考虑到 $\pi$ 轨道的两个电子，从紧束缚近似模型中可以看到，两个电子自旋上下填满了的能量较低的能带；然而从图像中可以看到上下的价带和导带在 $K$ 点处接触，能隙为0，正是在此处，**石墨烯具有了独特的半金属性**。观察其二维平面能带：
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -961,7 +961,7 @@ $$
 \end{pmatrix}
 $$
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
