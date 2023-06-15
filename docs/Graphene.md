@@ -98,7 +98,7 @@ $$
 V_2=3.26\frac{\hbar}{m_ed^2}=\frac{B}{d^2}
 $$
 
-其中 $m_e$ 为电子质量。而$V_1$ 为金属化能, $V_1=(\epsilon_s-\epsilon_p)/4=2.08 eV$, $\epsilon_s$ 和 $\epsilon_p$ 分别是 $s$ 和 $p$ 态电子的能量;  $R=10.08eV\times(10^{-10}m)^{12}$ , $\beta_2$ 是与维数有关的参量, 对石墨烯 $\beta_2=2/3$
+其中 $m_e$ 为电子质量。而 $V_1$ 为金属化能, $V_1=(\epsilon_s-\epsilon_p)/4=2.08 eV$, $\epsilon_s$ 和 $\epsilon_p$ 分别是 $s$ 和 $p$ 态电子的能量;  $R=10.08eV\times(10^{-10}m)^{12}$ , $\beta_2$ 是与维数有关的参量, 对石墨烯 $\beta_2=2/3$
 
 <div style="text-align: center">
     <img style = "
@@ -778,7 +778,7 @@ $$
 |f(\mathbf k)|=\sqrt{1+4\cos(\sqrt3k_xa/2)\cos(k_ya/2)+4\cos^2(k_ya/2)}
 $$
 
-根据(5.9)可以画出$\pi$轨道的能带结构（ `energy_band.m`）
+根据(5.9)可以画出 $\pi$ 轨道的能带结构（ `energy_band.m`）
 
 <div style="text-align: center">
     <img style = "
