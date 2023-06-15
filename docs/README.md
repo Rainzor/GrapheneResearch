@@ -323,7 +323,7 @@ $$
 当沿着 $\Gamma,M,K,\Gamma$ 方向画出平面色散关系
 
 <div align=center>
-<img src="./assets/graphene2.jpg" style="zoom:50%;" />
+<img src="./assets/graphene2.jpg" width="30%" />
 </div>
 
 <div align=center>
@@ -617,7 +617,9 @@ $$
 
 可以看到在低温处，比热容确实保持了线性，这正是 ZA 模式下色散关系呈现二次关系导致的。文献中给出的热容如下：  [<sup>[4]</sup>](#refer-anchor-4)
 
+<div align=center>
 <img src="./assets/实际热容.png" style="zoom:40%;" />
+</div>
 
 ## 5. 电子特性
 
@@ -698,7 +700,7 @@ $$
 对于此表达式，只考虑最邻近原子相互作用，如下:
 
 <div align=center>
-<img src="./assets/graphene3.png" style="zoom:50%;" />
+<img src="./assets/graphene3.png" width="50%" />
 </div>
 
 $$
@@ -1016,5 +1018,5 @@ $$
 8. [Memarian, Farzaneh, A. Fereidoon, and M. Darvish Ganji. "Graphene Young’s modulus: Molecular mechanics and DFT treatments." *Superlattices and Microstructures* 85 (2015): 348-356](https://www.sciencedirect.com/science/article/pii/S0749603615300239)
 9. [Yang, Gao, et al. "Structure of graphene and its disorders: a review." *Science and technology of advanced materials* 19.1 (2018): 613-648.](https://www.tandfonline.com/doi/full/10.1080/14686996.2018.1494493)
 10. [Davydov, S. Yu, and G. I. Sabirova. "Model of adsorption on graphene." *Physics of the Solid State* 53 (2011): 654-664.](https://www.researchgate.net/profile/Sergei-Davydov/publication/251341039_Model_of_adsorption_on_graphene/links/54994c3e0cf21eb3df5f9009/Model-of-adsorption-on-graphene.pdf)
-11. [殷隆晶, 乔佳斌, and 何林. "双层转角石墨烯的结构和电学性质." *物理学进展* 36.3 (2016): 65.]
+11. [殷隆晶, 乔佳斌, and 何林. "双层转角石墨烯的结构和电学性质." *物理学进展* 36.3 (2016): 65.](https://pip.nju.edu.cn/CN/abstract/abstract74.shtml)
 
