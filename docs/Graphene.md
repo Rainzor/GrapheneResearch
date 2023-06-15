@@ -8,7 +8,7 @@
 
 ## 2. 石墨烯结构
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -24,12 +24,12 @@
         Figure 2.1. 石墨烯纳米带分类 （a）椅型边纳米带，（b）锯齿边纳米带，（c）螺旋边纳米带
     </div>
     <p> </p>
-</center>
+</div>
 
 
 理想的石墨烯是具有正六方晶格结构的单层二维原子晶体。 C-C键的长度约为0.142 nm，层厚为0.35 nm。在每个状态下，单个碳原子通过 $sp^2$ 轨道杂化分别与其三个最近的邻居形成强 σ 键，导致占据和未占据状态相互远离。石墨烯的每个晶胞都有A型和B型两种亚晶格
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -45,7 +45,7 @@
         Figure 2.2. 石墨烯晶胞
     </div>
     <p> </p>
-</center>
+</div>
 
 
 设 $a_0=0.142 nm$,晶格常数为 $a=\sqrt3 a_0$,那么石墨烯的晶胞基矢可以写为
@@ -78,7 +78,7 @@ $$
 
 碳是元素周期表中的第六元素，基态电子排布为 $1s^2,2s^2,2p_x^1,2p_y^1,2p_z^0$ ,当碳原子与其相邻的三个碳原子共享 $sp^2$ 电子时，它们形成一层平面结构的蜂窝网络，也称为单层石墨烯。
 
-在石墨烯层上两个相邻碳原子的典型 $sp^ 2$ 杂化中，面外 $\pi$ 键由垂直于平面结构的 $2p_z$ 轨道组成，而面内σ键由 $sp^2$ ($2s$,$2p_x$和$2p_y$)杂化轨道形成。
+在石墨烯层上两个相邻碳原子的典型 $sp^ 2$ 杂化中，面外 $\pi$ 键由垂直于平面结构的 $2p_z$ 轨道组成，而面内σ键由 $sp^2$ ($2s$ , $2p_x$ 和 $2p_y$ )杂化轨道形成。
 
 产生的共价 $\sigma$ 键具有约 $1.42\overset{\circ}{A}$ 的短原子间长度，使其甚至比金刚石中的 $sp^3$ 杂化碳-碳键更强，从而赋予单层石墨烯显着的机械性能（例如 $1 T Pa$ 的杨氏模量和固有抗拉强度为 $130.5 GPa$)。
 
@@ -98,9 +98,9 @@ $$
 V_2=3.26\frac{\hbar}{m_ed^2}=\frac{B}{d^2}
 $$
 
-其中 $m_e$ 为电子质量。而$V_1$ 为金属化能, $V_1=(\epsilon_s-\epsilon_p)/4=2.08 eV$, $\epsilon_s$ 和 $\epsilon_p$ 分别是 $s$ 和 $p$ 态电子的能量;$R=10.08eV\times(10^{-10}m)^{12}$ ，$\beta_2$ 是与维数有关的参量, 对石墨烯 $\beta_2=2/3$
+其中 $m_e$ 为电子质量。而$V_1$ 为金属化能, $V_1=(\epsilon_s-\epsilon_p)/4=2.08 eV$, $\epsilon_s$ 和 $\epsilon_p$ 分别是 $s$ 和 $p$ 态电子的能量;  $R=10.08eV\times(10^{-10}m)^{12}$ , $\beta_2$ 是与维数有关的参量, 对石墨烯 $\beta_2=2/3$
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -116,7 +116,7 @@ $$
         Figure 3.1. 结合能
     </div>
     <p> </p>
-</center>
+</div>
 
 
 求导可以得到稳定平衡点
@@ -205,7 +205,7 @@ $$
 
 同时为了简化问题，只考虑到第4近邻的原子作用 [<sup>[6]</sup>](#refer-anchor-6)
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -221,13 +221,13 @@ $$
         Figure 4.1. 近邻原子
     </div>
     <p> </p>
-</center>
+</div>
 
 ##### 弹性张量
 
 A原子最邻近的原子有 $B_1,B_2,B_3$ [<sup>[6]</sup>](#refer-anchor-6)
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -243,7 +243,7 @@ A原子最邻近的原子有 $B_1,B_2,B_3$ [<sup>[6]</sup>](#refer-anchor-6)
         Figure 4.2. 作用力
     </div>
     <p> </p>
-</center>
+</div>
 
 
 对于最邻近的原子 $A,B_1$ 之间的张量矩阵在特征空间下，可以写作
@@ -274,7 +274,7 @@ $$
 
 对于考虑到第4临界的弹性张量矩阵，在特征空间下矩阵的值为 [<sup>6</sup>](#refer-anchor-6)
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -290,7 +290,7 @@ $$
         Figure 4.3. 弹性系数，其中的单位是10N/m
     </div>
     <p> </p>
-</center>
+</div>
 
 ### 3.2 色散关系
 
@@ -298,7 +298,7 @@ $$
 
 ##### 三维
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -314,7 +314,7 @@ $$
         Figure 4.4. 色散关系3D
     </div>
     <p> </p>
-</center>
+</div>
 
 ##### 二维
 
@@ -324,7 +324,7 @@ $$
 <img src="./assets/graphene2.jpg" style="zoom:50%;" />
 </div>
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -340,12 +340,12 @@ $$
         Figure 4.5. 色散关系
     </div>
     <p> </p>
-</center>
+</div>
 
 
 ##### X-W投影平面
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -361,7 +361,7 @@ $$
         Figure 4.6. X-W色散关系
     </div>
     <p> </p>
-</center>
+</div>
 
 
 从图像中可以看到一下一些结论
@@ -400,7 +400,7 @@ $$
 
 利用提供的代码 `DOS_frequency.m`， 对第一布里渊区内进行统计，可以得到如下频率态密度分布
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -416,11 +416,11 @@ $$
         Figure 4.7. 态密度分布
     </div>
     <p> </p>
-</center>
+</div>
 
 在频率较低处是声学支占主导，态密度近似为单调的线性函数形式，但是在$1.5\times10^{14}$ 以及在大于 $2.5\times 10^{14}$ 处光学支发挥作用，态密度激增。(文献中给出的态密度如下)[<sup>[7]</sup>](#refer-anchor-7) 
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -436,7 +436,7 @@ $$
         Figure 4.8. 实际态密度
     </div>
     <p> </p>                  
-</center>
+</div>
 
 
 
@@ -590,7 +590,7 @@ $$
 C_V=\sum_qk_B\left(\frac{\hbar w_q}{k_BT}\right)^2\frac{\exp(\frac{\hbar w_q}{k_BT})}{\left(\exp(\frac{\hbar w_q}{k_BT})-1\right)^2}
 $$
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -611,7 +611,7 @@ $$
         Figure 4.8. 热容随温度变化
     </div>
     <p> </p>
-</center>
+</div>
 
 可以看到在低温处，比热容确实保持了线性，这正是 ZA 模式下色散关系呈现二次关系导致的。文献中给出的热容如下：  [<sup>[4]</sup>](#refer-anchor-4)
 
@@ -780,7 +780,7 @@ $$
 
 根据(5.9)可以画出$\pi$轨道的能带结构（ `energy_band.m`）
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -796,7 +796,7 @@ $$
         Figure 5.1. 能带结构
     </div>
     <p> </p>                  
-</center>
+</div>
 <div style="text-align: center">
 
 有时会近似忽略 $s_0$,即令 $s_0=0eV$,此时可以将能带结构简化为：
@@ -809,7 +809,7 @@ $$
 
 由于已经求出了能带结构，很自然的可以画出能态密度（`DOS_energy.m`）
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -825,7 +825,7 @@ $$
         Figure 5.2. 能态密度
     </div>
     <p> </p>                  
-</center>
+</div>
 
 
 从文献中可以给出石墨烯能态密度 $\rho_g(\epsilon)$ 的表达式  [<sup>[10]</sup>](#refer-anchor-10)
@@ -842,7 +842,7 @@ $$
 
 其中 $\rho_m=\frac{4}{[1+2\ln(D/\Delta)]\Delta},\Delta=6eV,D=18.4eV$ ，得到下图
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -850,11 +850,11 @@ $$
         width = "40%">
     <br>
         <p> </p>                  
-</center>
+</div>
 
 还有一种表示形式是： [<sup>[2]</sup>](#refer-anchor-2)
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -862,11 +862,11 @@ $$
         width = "60%">
     <br>
         <p> </p>                  
-</center>
+</div>
 
 其中 $\bf F(\pi/2,x)$ 是第一类椭圆积分，图像如下
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -874,13 +874,13 @@ $$
         width = "60%">
     <br>
         <p> </p>                  
-</center>
+</div>
 
 ### 5.4 Van Hove 奇点
 
 对于 $M$ 处的电子态密度具有 Van Hove 奇点
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -896,14 +896,14 @@ $$
         Figure 5.3. Γ-M-Γ 二维能带结构
     </div>
     <p> </p>                  
-</center>
+</div>
 
 
 ### 5.5 Dirac点
 
 如果只考虑到 $\pi$ 轨道的两个电子，从紧束缚近似模型中可以看到，两个电子自旋上下填满了的能量较低的能带；然而从图像中可以看到上下的价带和导带在 $K$ 点处接触，能隙为0，正是在此处，**石墨烯具有了独特的半金属性**。观察其二维平面能带：
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -919,8 +919,9 @@ $$
         Figure 5.4. K-Γ-K 二维能带结构
     </div>
     <p> </p>                  
-</center>
-结合三维视图，可以看到在布里渊区边界处（K和K'点）有六个锥, 这六个锥便是狄拉克锥（Dirac cone）。在每个锥上，上下能带简并在一个点，该点便称为狄拉克点(Dirac point),这些点分别是 
+</div>
+
+结合三维视图，可以看到在布里渊区边界处（K和K'点）有六个锥, 这六个锥便是 **狄拉克锥(Dirac cone) 。在每个锥上，上下能带简并在一个点，该点便称为狄拉克点(Dirac point)**,这些点分别是 
 
 $$
 (0,\pm\frac{4\pi}{3}),(\pm\frac{4\pi}{3},0 ),(\pm\frac{2\pi}{\sqrt 3 a},\pm\frac{2\pi}{3a}),(\pm\frac{2\pi}{\sqrt 3 a},\mp\frac{2\pi}{3a})
@@ -959,7 +960,7 @@ $$
 \end{pmatrix}
 $$
 
-<center>
+<div style="text-align: center">
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -980,7 +981,7 @@ $$
         Figure 5.5. 隧穿效应
     </div>
     <p> </p>                  
-</center>
+</div>
 
 透过率的表达式为
 
