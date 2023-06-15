@@ -495,7 +495,7 @@ $$
 
 <div align=center>
 <img src="./assets/project_x_w_bad.png" width="300" />
-<div align=center>
+</div>
 
 
 对于弹性波，二维平面中色散关系是
@@ -533,7 +533,7 @@ $$
 
 <div align=center>
 <img src="./assets/project_x_w.png" width="300" />
-<div align=center>
+</div>
 
 而且实际的Debye温度 $T_D^{exp}=2100K$,与 4.4.2中求出 $1273.24K$ 相比，差距比较大，
 
