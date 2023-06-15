@@ -124,6 +124,7 @@ $$
 $$
 d_0 =1.37354\times10^{-10}m
 $$
+
 和实验值 $a_0=1.42\times 10^{-10}m$ 相比，比较接近
 
 ## 3. 晶格振动
@@ -171,7 +172,7 @@ $$
 -\sum_{j_A}K^{(i,j_A)}e^{-i\mathbf{k\cdot\Delta r_{ij_A}}}A+\left(\sum_jK^{(ij)}-\sum_{j_B}K^{(i,j_B)}e^{-i\mathbf{k\cdot\Delta r_{ij_B}}}\right)B=Mw^2B
 $$
 
-注意 $A,B$ 是一个 $\R^{3\times1}$ 的向量，得到一下特征方程
+注意 $A,B$ 是一个 $R^{3\times1}$ 的向量，得到一下特征方程
 
 $$
 \begin{bmatrix}
@@ -366,8 +367,8 @@ $$
 1. 对于原胞中有2个原子的石墨烯材料，共有 $3\times2$支色散波段。其中3只为声学支，为 ZA,TA,LA；3只为光学波段，为ZO,LO,TO
 2. 纵向 (L) 模式对应于沿波传播方向（压缩波）的原子位移，而横向 (T) 模式对应于垂直于传播方向（剪切波）的面内位移。在典型的三维 (3D) 固体中，横向模式可以具有两个等效极化，但石墨烯独特的二维性质允许面外原子位移，也称为弯曲 (Z) 声子。
 3. 在低频区间，声学支占主导，且曲线变化比较陡峭，占据了大多数频率区间；而光学支只在高频处占主导，且占据范围较小
-4. 在布里渊区中心附近的低 k 处，横向声学支 (TA) 和纵向声学支 (LA) 模式的频率具有线性色散,即 $w_{TA}\approx v_{TA}k$ ， $ω_{LA} \approx v_{LA}k$ ，由于石墨烯的在面内 $\sigma $ 键和小质量特性，其具有较大的群速度 $v_{TA}\approx 13.9 km/s$ ，$v_{LA}\approx 20.5 km/s$ (模拟拟合曲线)
-5. 在布里渊区中心附近的低 k 处，弯曲 ZA 模式具有近似二次色散，$w_{ZA}\approx \alpha k^2$ , 其中 $\alpha = 5.7 \times 10^-7 m^2/s$(模拟曲线拟合) ，正是 ZA 模式的存在和修改是造成石墨烯许多不寻常的热特性的原因。比如高热导率：
+4. 在布里渊区中心附近的低 k 处，横向声学支 (TA) 和纵向声学支 (LA) 模式的频率具有线性色散,即 $w_{TA}\approx v_{TA}k$ ， $ω_{LA} \approx v_{LA}k$ ，由于石墨烯的在面内 $ \sigma $ 键和小质量特性，其具有较大的群速度 $v_{TA}\approx 13.9 km/s$ ，$ v _ {LA}\approx 20.5 km/s$ (模拟拟合曲线)
+5. 在布里渊区中心附近的低 k 处，弯曲 ZA 模式具有近似二次色散，$w _ {ZA}\approx \alpha k^2$ , 其中 $\alpha = 5.7 \times 10^-7 m^2/s$(模拟曲线拟合) ，正是 ZA 模式的存在和修改是造成石墨烯许多不寻常的热特性的原因。比如高热导率：
 
 ### 3.3 杨氏模量
 
@@ -511,7 +512,7 @@ $$
 \begin{aligned}
 C_V&=\sum_qk_B\left(\frac{\hbar w_q}{k_BT}\right)^2\frac{\exp(\frac{\hbar w_q}{k_BT})}{\left(\exp(\frac{\hbar w_q}{k_BT})-1\right)^2}\\
 &=\int_0^{w_D}dw\cdot g(w) k_B\left(\frac{\hbar w}{k_BT}\right)^2\frac{\exp(\frac{\hbar w}{k_BT})}{\left(\exp(\frac{\hbar w}{k_BT})-1\right)^2}\\
-(T\rarr0)\quad&=12Nk_B\left(\frac{T}{T_D}\right)^2\int_0^{\infin}\frac{e^x x^3}{(e^x-1)^2}dx
+(T\rarr0)\quad&=12Nk_B\left(\frac{T}{T_D}\right)^2\int_0^{\infty}\frac{e^x x^3}{(e^x-1)^2}dx
 \end{aligned}
 $$
 
@@ -554,8 +555,8 @@ $$
 $$
 \begin{aligned}
 C_V&=\int_0^{w_D}dw\cdot g(w) k_B\left(\frac{\hbar w}{k_BT}\right)^2\frac{\exp(\frac{\hbar w}{k_BT})}{\left(\exp(\frac{\hbar w}{k_BT})-1\right)^2}\\
-(T\rarr0)\quad&=\left(\frac{k_B^3S}{\pi v_g^2\hbar^2}\int_0^\infin\frac{e^x x^3}{(e^x-1)^2}dx\right)\times T^2+
-\left(\frac{k_B^2S}{4\pi \alpha\hbar}\int_0^\infin\frac{e^xx^2}{(e^x-1)^2}dx\right)\times T\\
+(T\rarr0)\quad&=\left(\frac{k_B^3S}{\pi v_g^2\hbar^2}\int_0^\infty\frac{e^x x^3}{(e^x-1)^2}dx\right)\times T^2+
+\left(\frac{k_B^2S}{4\pi \alpha\hbar}\int_0^\infty\frac{e^xx^2}{(e^x-1)^2}dx\right)\times T\\
 &=AT^2+BT
 \end{aligned}
 $$
@@ -655,7 +656,7 @@ $$
 如果写成矩阵的形式：
 
 $$
-(H-E_kS)\begin{bmatrix}C_A\\C_B\end{bmatrix}=0\tag{5.4}
+(H-E_kS)\begin{bmatrix}C_A \\ C_B\end{bmatrix}=0\tag{5.4}
 $$
 
 下面分别来看 $H_{\alpha\beta},S_{\alpha\beta}$ 的表达式: ($\alpha,\beta \in\{A,B\}$)
@@ -711,7 +712,7 @@ $$
 
 $$
 \begin{aligned}
-f(\mathbf k)&=\sum_{\delta_i}e^{-i\bold k \cdot \bold{\delta_i}}=e^{ik_xa/\sqrt3}+2e^{-ik_xa/2\sqrt3}\cos(k_ya/2)
+f(\mathbf k)&=\sum_{\delta_i}e^{-i\mathbf k \cdot \mathbf{\delta_i}}=e^{ik_xa/\sqrt3}+2e^{-ik_xa/2\sqrt3}\cos(k_ya/2)
 \end{aligned}
 $$
 
@@ -729,10 +730,15 @@ $$
 
 $$
 det(H-E_kS)=0\\
-H=\begin{bmatrix}\varepsilon_{2p}&-\gamma_0f(\mathbf k)\\
+
+H=
+\begin{bmatrix}\varepsilon_{2p}&-\gamma_0f(\mathbf k)\\
+
 -\gamma_0f^*(\mathbf k)&\varepsilon_{2p}
 \end{bmatrix}\\
-S=\begin{bmatrix}1&-s_0f(\mathbf k)\\
+
+S=
+\begin{bmatrix}1&-s_0f(\mathbf k)\\
 -s_0f^*(\mathbf k)&1
 \end{bmatrix}
 $$
@@ -745,7 +751,7 @@ $$
 
 其中 $ |f(\mathbf k)|=\sqrt{1+4\cos(\sqrt3k_xa/2)\cos(k_ya/2)+4\cos^2(k_ya/2)}$ ；查阅文献[<sup>[9]</sup>](#refer-anchor-9) 可得 $\bf{\gamma_0=3.033 eV,s_0=0.129eV}$，并取 $\varepsilon_{2p}=0eV$
 
-根据(5.9)可以画出 $\pi $ 轨道的能带结构（ `energy_band.m`）
+根据(5.9)可以画出 $ \pi  $  轨道的能带结构（ `energy_band.m`）
 
 <center>
     <img style = "
@@ -807,15 +813,39 @@ $$
 
 其中 $\rho_m=\frac{4}{[1+2\ln(D/\Delta)]\Delta},\Delta=6eV,D=18.4eV$ ，得到下图
 
-<img src="./assets/DOS_model.png" style="zoom:33%;" />
+<center>
+    <img style = "
+        border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+       	src="./assets/DOS_model.png"
+        width = "40%">
+    <br>
+        <p> </p>                  
+</center>
 
 还有一种表示形式是： [<sup>[2]</sup>](#refer-anchor-2)
 
-<img src="./assets/Formula.png" style="zoom:50%;" />
+<center>
+    <img style = "
+        border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+       	src="./assets/Formula.png"
+        width = "60%">
+    <br>
+        <p> </p>                  
+</center>
 
 其中 $\bf F(\pi/2,x)$ 是第一类椭圆积分，图像如下
 
-<img src="./assets/DOS_model2.png" style="zoom: 33%;" />
+<center>
+    <img style = "
+        border-radius: 0.3125em;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+       	src="./assets/DOS_model2.png"
+        width = "60%">
+    <br>
+        <p> </p>                  
+</center>
 
 ### 5.4 Van Hove 奇点
 
@@ -842,7 +872,7 @@ $$
 
 ### 5.5 Dirac点
 
-如果只考虑到 $\pi $ 轨道的两个电子，从紧束缚近似模型中可以看到，两个电子自旋上下填满了的能量较低的能带；然而从图像中可以看到上下的价带和导带在 $K$ 点处接触，能隙为0，正是在此处，**石墨烯具有了独特的半金属性**。观察其二维平面能带：
+如果只考虑到 $ \pi $ 轨道的两个电子，从紧束缚近似模型中可以看到，两个电子自旋上下填满了的能量较低的能带；然而从图像中可以看到上下的价带和导带在 $K$ 点处接触，能隙为0，正是在此处，**石墨烯具有了独特的半金属性**。观察其二维平面能带：
 
 <center>
     <img style = "
