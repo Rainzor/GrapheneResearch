@@ -8,7 +8,7 @@
 
 ## 2. 石墨烯结构
 
-<p align="center">
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -25,11 +25,11 @@
         Figure 2.1. 石墨烯纳米带分类 （a）椅型边纳米带，（b）锯齿边纳米带，（c）螺旋边纳米带
     </div>
     <p> </p>
-</p>
+</div>
 
 理想的石墨烯是具有正六方晶格结构的单层二维原子晶体。 C-C键的长度约为0.142 nm，层厚为0.35 nm。在每个状态下，单个碳原子通过 $sp^2$ 轨道杂化分别与其三个最近的邻居形成强 σ 键，导致占据和未占据状态相互远离。石墨烯的每个晶胞都有A型和B型两种亚晶格
 
-<div style="text-align: center;">
+<div align=center>
   <figure>
     <img style="
       border-radius: 0.3125em;
