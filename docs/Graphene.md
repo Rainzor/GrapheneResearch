@@ -730,11 +730,17 @@ $$
 
 
 $$
-det(H-E_kS)=0\\
+det(H-E_kS)=0
+$$
+
+$$
 H=
 \begin{bmatrix}\varepsilon_{2p}&-\gamma_0f(\mathbf k)\\
 -\gamma_0f^*(\mathbf k)&\varepsilon_{2p}
-\end{bmatrix}\\
+\end{bmatrix}
+$$
+
+$$
 S=
 \begin{bmatrix}1&-s_0f(\mathbf k)\\
 -s_0f^*(\mathbf k)&1
@@ -743,14 +749,17 @@ $$
 
 
 得到方程的解为
+
 $$
 E_k=\frac{\varepsilon_{2p}\pm\gamma_0|f(\mathbf k)|}{1\mp s_0|f(\mathbf k)|} \tag{5.9}
 $$
 
 其中查阅文献[<sup>[9]</sup>](#refer-anchor-9) 可得 $\bf{\gamma_0=3.033 eV,s_0=0.129eV}$，并取 $\varepsilon_{2p}=0eV$, 而 $\vert f(k)\vert$
+
 $$
 |f(\mathbf k)|=\sqrt{1+4\cos(\sqrt3k_xa/2)\cos(k_ya/2)+4\cos^2(k_ya/2)}
 $$
+
 根据(5.9)可以画出 $ \pi  $  轨道的能带结构（ `energy_band.m`）
 
 <center>
@@ -799,7 +808,7 @@ $$
 </center>
 
 
-从文献中可以给出石墨烯能态密度的表达式  [<sup>[10]</sup>](#refer-anchor-10)
+从文献中可以给出石墨烯能态密度 $\rho_g(\epsilon)$ 的表达式  [<sup>[10]</sup>](#refer-anchor-10)
 
 $$
 \rho_g(\epsilon)=\left\{\begin{aligned}
@@ -891,7 +900,7 @@ $$
     </div>
     <p> </p>                  
 </center>
-结合三维视图，可以看到在布里渊区边界处（K和K'点）有六个锥，**这六个锥便是狄拉克锥（Dirac cone）。在每个锥上，上下能带简并在一个点，该点便称为狄拉克点（Dirac point)**,这些点分别是 
+结合三维视图，可以看到在布里渊区边界处（K和K'点）有六个锥，**这六个锥便是狄拉克锥（Dirac cone）。在每个锥上，上下能带简并在一个点，该点便称为狄拉克点（Dirac point) **,这些点分别是 
 
 $$
 (0,\pm\frac{4\pi}{3}),(\pm\frac{4\pi}{3},0 ),(\pm\frac{2\pi}{\sqrt 3 a},\pm\frac{2\pi}{3a}),(\pm\frac{2\pi}{\sqrt 3 a},\mp\frac{2\pi}{3a})
@@ -922,9 +931,13 @@ $$
 \end{pmatrix}={\Psi_K^*(k)}\tag{5.13}
 $$
 
-这样的狄拉克费米子波函数有着很显著的隧穿效应  [<sup>[2]</sup>](#refer-anchor-2) ，如下图所示，假设入射的波函数为 ${\Psi_K(k)}=\frac1{\sqrt2}\begin{pmatrix}1\\
+这样的狄拉克费米子波函数有着很显著的隧穿效应  [<sup>[2]</sup>](#refer-anchor-2) ，如下图所示，假设入射的波函数为 
+
+$$
+{\Psi_K(k)}=\frac1{\sqrt2}\begin{pmatrix}1\\
 \pm e^{i\theta_k}
-\end{pmatrix}$
+\end{pmatrix}
+$$
 
 <center>
     <img style = "
