@@ -6,7 +6,7 @@ The basic properties of graphene: structure, dispersion,DOS and energy bands. Yo
 
 ### Structure
 
-<center>
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -22,11 +22,11 @@ The basic properties of graphene: structure, dispersion,DOS and energy bands. Yo
         Figure 1. Structure
     </div>
     <p> </p>
-</center>
+</div>
 
 ### Phonon
 
-<center>
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -42,9 +42,9 @@ The basic properties of graphene: structure, dispersion,DOS and energy bands. Yo
         Figure 2. Dispersion
     </div>
     <p> </p>
-</center>
+</div>
 
-<center>
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -60,11 +60,11 @@ The basic properties of graphene: structure, dispersion,DOS and energy bands. Yo
         Figure 3. Phonon DOS
     </div>
     <p> </p>
-</center>
+</div>
 
 ### Electron
 
-<center>
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -80,9 +80,9 @@ The basic properties of graphene: structure, dispersion,DOS and energy bands. Yo
         Figure 4. Energy Band
     </div>
     <p> </p>
-</center>
+</div>
 
-<center>
+<div align=center>
     <img style = "
         border-radius: 0.3125em;
         box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -98,5 +98,5 @@ The basic properties of graphene: structure, dispersion,DOS and energy bands. Yo
         Figure 5. Electron DOS
     </div>
     <p> </p>
-</center>
+</div>
 
