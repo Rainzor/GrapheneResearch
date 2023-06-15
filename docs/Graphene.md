@@ -320,7 +320,9 @@ $$
 
 当沿着 $\Gamma,M,K,\Gamma$ 方向画出平面色散关系
 
+<div style="text-align: center">
 <img src="./assets/graphene2.jpg" style="zoom:50%;" />
+</div>
 
 <center>
     <img style = "
@@ -415,7 +417,8 @@ $$
     </div>
     <p> </p>
 </center>
-在频率较低处是声学支占主导，态密度近似为单调的线性函数形式，但是在 $1.5\times10^{14}$以及在大于$2.5\times 10^{14}$ 处光学支发挥作用，态密度激增。(文献中给出的态密度如下) [<sup>[7]</sup>](#refer-anchor-7)
+
+在频率较低处是声学支占主导，态密度近似为单调的线性函数形式，但是在$1.5 \times 10^{14}$ 以及在大于 $ 2.5\times 10 ^ {14} $ 处光学支发挥作用，态密度激增。(文献中给出的态密度如下)[<sup>[7]</sup>](#refer-anchor-7) 
 
 <center>
     <img style = "
@@ -442,6 +445,7 @@ $$
 ### 4.1 Dulong-Petit 定律
 
 考虑经典能均分定理，得到其摩尔热容为
+
 $$
 C_V=3N_ak_B=24.943 J\cdot mol^{-1}\cdot K^{-1}
 $$
@@ -522,7 +526,9 @@ $$
 
 从下图可以看到，对于 ZA 模，色散关系更加接近二次关系
 
+<div style="text-align: center">
 <img src="./assets/project_x_w.png" style="zoom:20%;" />
+</div>
 
 而且实际的Debye温度 $T_D^{exp}=2100K$,与 4.4.2中求出 $1273.24K$ 相比，差距比较大，
 
@@ -563,13 +569,17 @@ $$
 
 可以看到在极低温处，**热容应当是与温度呈线性**，其中 $A=5.8\times10^{-5},B=2.6\times 10^{-2}$,修正后图像如下，在 $0-100K$ 范围内保持了良好的线性
 
+<div style="text-align: center">
 <img src="./assets/fit_Cp_100.png" style="zoom:50%;" />
+</div>
 
 ### 4.4 实际热容
 
 根据晶格动力学求解出的态密度分布：
 
+<div style="text-align: center">
 <img src="./assets/DOS.png" style="zoom: 15%;" />
+</div>
 
 结合统计力学和Bose-Einstein分布：
 
@@ -683,7 +693,9 @@ $$
 
 对于此表达式，只考虑最邻近原子相互作用，如下:
 
+<div style="text-align: center">
 <img src="./assets/graphene3.png" style="zoom:50%;" />
+</div>
 
 $$
 \delta_1=\frac{a_0}{2}(1,\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},1)\\
@@ -779,6 +791,8 @@ $$
     </div>
     <p> </p>                  
 </center>
+<div style="text-align: center">
+
 有时会近似忽略 $s_0$,即令 $s_0=0eV$,此时可以将能带结构简化为：
 
 $$
