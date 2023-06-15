@@ -491,7 +491,10 @@ $$
 \frac{3}{v_s^2}=\frac1{v_{TA}^2}+\frac1{v_{LA}^2}+\frac1{v^2_{ZA}}
 $$
 
-<img src="./assets/project_x_w_bad.png" style="zoom: 20%;" />
+<div style="text-align: center">
+<img src="./assets/project_x_w_bad.png" width="300" />
+<div style="text-align: center">
+
 
 对于弹性波，二维平面中色散关系是
 
@@ -527,8 +530,8 @@ $$
 从下图可以看到，对于 ZA 模，色散关系更加接近二次关系
 
 <div style="text-align: center">
-<img src="./assets/project_x_w.png" style="zoom:20%;" />
-</div>
+<img src="./assets/project_x_w.png" width="300" />
+<div style="text-align: center">
 
 而且实际的Debye温度 $T_D^{exp}=2100K$,与 4.4.2中求出 $1273.24K$ 相比，差距比较大，
 
