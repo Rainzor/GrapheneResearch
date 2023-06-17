@@ -973,7 +973,10 @@ $$
 $$
 {\Psi_K(k)}=\frac1{\sqrt2}\begin{pmatrix}e^{-i\theta_k/2}\\
 \pm e^{i\theta_k/2}
-\end{pmatrix}\\
+\end{pmatrix}
+$$
+
+$$
 {\Psi_{K'}(k)}=\frac1{\sqrt2}\begin{pmatrix}e^{i\theta_k/2}\\
 \pm e^{-i\theta_k/2}
 \end{pmatrix}={\Psi_K^*(k)}\tag{5.13}
@@ -1016,9 +1019,17 @@ $$
 T(\phi)=\frac{\cos^2\theta\cos^2\phi}{[\cos(Dq_x)\cos\phi\cos\theta]^2+\sin^2(Dq_x)(1-ss'\sin\phi\sin\theta)^2}
 $$
 
-其中 $q_x=\sqrt{(V_0-E)^2/v_F^2-k_y^2}$, $\phi=\arctan(k_y/k_x)$, $\theta=\arctan(k_y/q_x)$
+其中 
 
-即使在 $|V_0|\gg |E|$时， 由边界条件得到穿透率为
+$$
+\begin{align}
+q_x=\sqrt{(V_0-E)^2/v_F^2-k_y^2}\\
+\phi=\arctan(k_y/k_x)\\
+\theta=\arctan(k_y/q_x)
+\end{align}
+$$
+
+即使在 $\vert V_0\vert\gg \vert E\vert$时， 由边界条件得到穿透率为
 
 $$
 T(\phi)\approx\frac{\cos^2\phi}{1-\cos^2(Dq_x)}sin^2\phi
