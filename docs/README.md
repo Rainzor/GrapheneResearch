@@ -667,14 +667,14 @@ $$
 \widehat H\ket{\Psi_k}=E_k\ket{\Psi_k}\tag{5.1}
 $$
 
+设 $V(r)$ 是考虑所有晶格原子势场的结果, $u(r)$ 是一个中心碳原子的势场,那么有
+
 $$
 \begin{aligned}
 \widehat H&=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)\\
 &=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
 \end{aligned}
 $$
-
-其中 $V(r)$ 是考虑所有晶格原子势场的结果; $u(r)$ 是一个中心碳原子的势场
 
 按照紧束缚近似理论，考虑总本征态 $\ket{\Psi }$ 是A原子和B原子本征态 $\ket\phi$ 的叠加：
 
@@ -709,12 +709,13 @@ $$
 
 下面分别来看 $H_{\alpha\beta},S_{\alpha\beta}$ 的表达式: ($\alpha,\beta \in\{A,B\}$)
 
-对于 $H_{AA}$，有如下表达
+对于 $H_{AA}$，如果只考虑自身相互作用，有如下表达
 
 $$
 \begin{aligned}
-H_{AA}=\bra{\phi_k^A}\widehat H\ket{\phi_k^A}&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Aj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Aj})}\\
-(只考虑自身相互作用)\quad&=\frac1N\sum_{i=1}^N\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Ai})}\\
+H_{AA}&=\bra{\phi_k^A}\widehat H\ket{\phi_k^A}\\
+&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Aj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Aj})}\\
+\quad&=\frac1N\sum_{i=1}^N\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Ai})}\\
 &\approx\varepsilon_{2p}
 \end{aligned}
 $$
@@ -753,13 +754,13 @@ H_{AB}&=\frac1N\sum_i\sum_{\delta_i}e^{ik\delta_i}\bra{\varphi(r-R_{Ai})}\wideha
 \end{aligned}\tag{5.7}
 $$
 
-其中:
+其中,由于对称性,与 $\delta$ 方向无关:
 
 $$
 \begin{aligned}
 \gamma_0&=-\bra{\varphi(r-R_{Ai})}\widehat H \ket{\varphi(r-R_{Bj})}\\
 &=-\bra{\varphi(r)}\widehat H \ket{\varphi(r+(R_{A_i}-R_{Bj})}\\
-&=-\bra{\varphi(r)}\widehat H \ket{\varphi(r-\delta)}\qquad(对称性,与\delta 方向无关)\\
+&=-\bra{\varphi(r)}\widehat H \ket{\varphi(r-\delta)}\\
 \end{aligned}
 $$
 
