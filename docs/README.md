@@ -656,14 +656,15 @@ $$
 由Schrödinger方程
 
 $$
-\begin{align}
-\widehat H\ket{\Psi_k}&=E_k\ket{\Psi_k}\\ 
-\widehat H&=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
-\end{align}
-\tag{5.1}
+\widehat H\ket{\Psi_k}&=E_k\ket{\Psi_k}\tag{5.1}
+
 $$
 
-其中 $V(r)$ 是考虑所有晶格原子势场的结果；$u(r)$ 是一个中心碳原子的势场
+$$
+\widehat H&=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
+$$
+
+其中 $V(r)$ 是考虑所有晶格原子势场的结果; $u(r)$ 是一个中心碳原子的势场
 
 按照紧束缚近似理论，考虑总本征态 $\ket{\Psi }$ 是A原子和B原子本征态 $\ket\phi$ 的叠加：
 
@@ -725,9 +726,11 @@ $$
 </div>
 
 $$
+\begin{align}
 \delta_1=\frac{a_0}{2}(1,\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},1)\\ 
 \delta_2=\frac{a_0}{2}(1,-\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},-1)\\ 
 \delta_3=-a_0(1,0)=-a_0(\frac{1}{\sqrt 3},0)
+\end{align}
 $$
 
 所以可以得到：
