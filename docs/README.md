@@ -69,9 +69,12 @@ $$
 ### 2.1 最近邻矢量
 
 $$
+\begin{align}
 \delta_1=\frac{a_0}{2}(1,\sqrt3)\\
 \delta_2=\frac{a_0}{2}(1,-\sqrt3)\\
 \delta_3=-a_0(1,0)
+\end{align}
+
 $$
 
 ### 2.2 化学键 
@@ -146,8 +149,10 @@ $$
 对于上述微分方程，由于一个原胞中含有两个独立的格点 $A,B\in R^3$，所以设试探解为
 
 $$
+\begin{align}
 u^A=A\exp[i(\mathbf{k\cdot (r-r_{Ai})}-wt)] \\ 
 u^B=B\exp[i(\mathbf{k\cdot (r-r_{Bi})}-wt)]
+\end{align}
 $$
 
 代入微分方程 ，如果假设 $u_i$ 是 $A$ 原子，且由于所有原子质量 $M_i$ 都一样，得到
@@ -469,7 +474,11 @@ $$
 对于N个原胞的石墨烯系统，每个原胞中含有两个原子 $n=2$,得到热容为
 
 $$
-C_V=3Nnk_B\frac{\partial}{\partial T}\left(\frac{\hbar\omega_E}{e^{\hbar\omega_i/k_BT}-1}\right)=3Nnk_B\left(\frac{T_E}{ T}\right)^2\frac{e^{T_E/T}}{(e^{T_E/T}-1)^2}=3Nnk_Bf_E(\frac{T_E}T)
+\begin{aligned}
+C_V&=3Nnk_B\frac{\partial}{\partial T}\left(\frac{\hbar\omega_E}{e^{\hbar\omega_i/k_BT}-1}\right)\\ 
+&=3Nnk_B\left(\frac{T_E}{ T}\right)^2\frac{e^{T_E/T}}{(e^{T_E/T}-1)^2}\\ 
+&=3Nnk_Bf_E(\frac{T_E}T)
+\end{aligned}
 $$
 
 在高温下： $f_E(T_E/T)\approx1$
@@ -628,9 +637,11 @@ $$
 如果按照Sommerfeld的自由电子气理论，可以计算二维石墨烯结构在T=0K 处的费米能、费米半径、费米速度：
 
 $$
-k_F=\sqrt{4\pi n}=1.54\times10^{10} m^{-1}\\
-E_F=\frac{\hbar^2k_F^2}{2m}=9.14eV\\
+\begin{align}
+k_F=\sqrt{4\pi n}=1.54\times10^{10} m^{-1}\\ 
+E_F=\frac{\hbar^2k_F^2}{2m}=9.14eV\\ 
 v_F=\frac{\hbar k_F}{m}=1.78\times10^6m/s
+\end{align}
 $$
 
 不过石墨烯并不是经典意义上的金属，其费米半径是大于第一布里渊区心到边界的距离 
@@ -646,8 +657,11 @@ $$
 由Schrödinger方程
 
 $$
+\begin{align}
 \widehat H\ket{\Psi_k}=E_k\ket{\Psi_k}\\ 
-\widehat H=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)\tag{5.1}
+\widehat H=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
+\end{align}
+\tag{5.1}
 $$
 
 其中 $V(r)$ 是考虑所有晶格原子势场的结果；$u(r)$ 是一个中心碳原子的势场
@@ -655,9 +669,11 @@ $$
 按照紧束缚近似理论，考虑总本征态 $\ket{\Psi }$ 是A原子和B原子本征态 $\ket\phi$ 的叠加：
 
 $$
+\begin{align}
 \ket{\Psi_k}=C_A\ket{\phi_k^A}+C_B\ket{\phi_k^B}\\ 
 \ket{\phi_k^A}=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\ 
 \ket{\phi_k^B}=\frac1{\sqrt N}\sum_{R_B}e^{ikR_B}\varphi(r-R_B)
+\end{align}
 $$
 
 其中 $\ket \phi$ 是一个孤立电子和原子核之间的 $2p$轨道的本征态
@@ -669,8 +685,10 @@ $$
 对(5.1)的公式分别左乘 $\bra{\phi_k^A},\bra{\phi_k^B}$，得到如下形式的方程组
 
 $$
+\begin{align}
 (H_{AA}-E_kS_{AA})C_A+(H_{AB}-E_kS_{AB})C_B=0\\ 
 (H_{BA}-E_kS_{BA})C_A+(H_{BB}-E_kS_{BB})C_B=0\tag{5.3}
+\end{align}
 $$
 
 如果写成矩阵的形式：
