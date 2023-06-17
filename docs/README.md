@@ -676,7 +676,7 @@ $$
 \end{aligned}
 $$
 
-按照紧束缚近似理论，考虑总本征态 $$\vert{\Psi } \rangle $$ 是A原子和B原子本征态 $\vert\phi\rangle$ 的叠加：
+按照紧束缚近似理论，考虑总本征态 $\vert{\Psi } \rangle $ 是A原子和B原子本征态 $\vert\phi\rangle$ 的叠加：
 
 $$
 \begin{aligned}
