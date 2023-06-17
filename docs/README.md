@@ -521,10 +521,10 @@ $$
 由于有N个原胞，每个原胞有2个原子，自由度为6，所以总振动模式有 $6N$个，所以有：
 
 $$
-\begin{align}
-\int_0^{\omega_D}g(w)dw=6N\\
-\omega_D=\left(\frac{8\pi N}{S}\right)^{1/2}v_s\approx 1.6734\times10^{14} rad/s
-\end{align}
+\begin{aligned}
+\int_0^{\omega_D}g(w)dw&=6N\\
+\omega_D&=\left(\frac{8\pi N}{S}\right)^{1/2}v_s\approx 1.6734\times10^{14} rad/s
+\end{aligned}
 $$
 
 有此得到 $Debye$ 温度 $T_D=\frac{\hbar w_D}{k_B}\approx1273.24 K$
@@ -780,9 +780,9 @@ $$
 
 $$
 \begin{align}
-S_{AA}=S_{BB}=1\\ 
-S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\ 
-S_0=-\bra{\varphi(r)}\ket{\varphi(r-\delta)} 
+&S_{AA}=S_{BB}=1\\ 
+&S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\ 
+&S_0=-\bra{\varphi(r)}\ket{\varphi(r-\delta)} 
 \end{align}
 \tag{5.8}
 $$
