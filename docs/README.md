@@ -717,13 +717,11 @@ $$
 对于 $H_{AA}$，如果只考虑自身相互作用，有如下表达
 
 $$
-\begin{equation}
 \begin{aligned}
 H_{AA}=\langle{\phi_k^A}|\widehat H|{\phi_k^A}\rangle&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Aj})}\langle\varphi(r-R_{Ai})|\widehat H|{\varphi(r-R_{Aj})\rangle)}\\ 
 &=\frac1N\sum_{i=1}^N\langle\varphi(r-R_{Ai})|\widehat H|\varphi(r-R_{Ai}\rangle\\
 &\approx\varepsilon_{2p}
 \end{aligned}
-\end{equation}
 $$
 
 同理 $H _ {BB}\approx\varepsilon _ {2p}$
@@ -731,12 +729,10 @@ $$
 对于 $H _ { AB}$，有如下表达
 
 $$
-\begin{equation}
 \begin{aligned}
 H_{AB}&=\langle{\phi_k^A}|\widehat H|{\phi_k^B}\rangle\\
 &=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Bj})}\langle\varphi(r-R_{Ai})|\widehat H|\varphi(r-R_{Bj})\rangle\\
 \end{aligned}
-\end{equation}
 $$
 
 对于此表达式，只考虑最邻近原子相互作用，如下:
