@@ -144,7 +144,7 @@ $$
 根据晶格动力学，对于任意处于 $i$ 坐标处 $\mathbf u_i=(x_i,y_i,z_i)^T$,其对于含有N个原子的晶胞，运动方程可以写作
 
 $$
-M_i\frac{d^2u_i}{dt^2}=\sum_jK^{(i,j)}(u_j-u_i),\qquad(i=1,...,N)\tag {4.1}
+M_i\frac{d^2u_i}{dt^2}=\sum_jK^{(i,j)}(u_j-u_i),\qquad(i=1,...,N)
 $$
 
 其中 $K^{(i,j)}$ 代表了 $i$ 和 $j$ 之间的  $3\times 3$ 的弹性张量矩阵。
@@ -664,7 +664,7 @@ $$
 由Schrödinger方程
 
 $$
-\widehat H|{\Psi_k}\rangle=E_k|{\Psi_k}\rangle\tag{5.1}
+\widehat H|{\Psi_k}\rangle=E_k|{\Psi_k}\rangle
 $$
 
 设 $V(r)$ 是考虑所有晶格原子势场的结果, $u(r)$ 是一个中心碳原子的势场,那么有
@@ -692,12 +692,12 @@ $$
 \widehat H|\varphi\rangle=-\frac{\hbar^2}{2m}\widehat p^2+u(\widehat r)|\varphi\rangle=\varepsilon_{2p}|\varphi\rangle
 $$
 
-对(5.1)的公式分别左乘 $\langle{\phi_k^A}\vert,\langle{\phi_k^B\vert}$，得到如下形式的方程组
+对Schrödinger方程分别左乘 $\langle{\phi_k^A}\vert,\langle{\phi_k^B\vert}$，得到如下形式的方程组
 
 $$
 \begin{align}
 (H_{AA}-E_kS_{AA})C_A+(H_{AB}-E_kS_{AB})C_B=0\\ 
-(H_{BA}-E_kS_{BA})C_A+(H_{BB}-E_kS_{BB})C_B=0\tag{5.3}
+(H_{BA}-E_kS_{BA})C_A+(H_{BB}-E_kS_{BB})C_B=0
 \end{align}
 $$
 
@@ -710,7 +710,6 @@ $$
 C_B
 \end{bmatrix}=0
 \end{align}
-\tag{5.4}
 $$
 
 下面分别来看 $H_{\alpha\beta},S_{\alpha\beta}$ 的表达式: ($\alpha,\beta \in\{A,B\}$)
@@ -760,7 +759,7 @@ $$
 \begin{aligned}
 H_{AB}&=\frac1N\sum_i\sum_{\delta_i}e^{ik\delta_i}\langle\varphi(r-R_{Ai})|\widehat H|\varphi(r-R_{Bj})\rangle\\
 &=-\frac{\gamma_0}{N}\sum_if(\mathbf k)=-\gamma_0f(\mathbf k)
-\end{aligned}\tag{5.7}
+\end{aligned}
 $$
 
 其中,由于对称性,与 $\delta$ 方向无关:
@@ -793,7 +792,6 @@ S_{AA}=S_{BB}=1\\
 S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\
 S_0=-\langle{\varphi(r)}||{\varphi(r-\delta)}\rangle
 \end{align}
-\tag{5.8}
 $$
 
 结合式有解条件以及上面的讨论，有
@@ -821,7 +819,7 @@ $$
 得到方程的解为
 
 $$
-E_k=\frac{\varepsilon_{2p}\pm\gamma_0|f(\mathbf k)|}{1\mp s_0|f(\mathbf k)|} \tag{5.9}
+E_k=\frac{\varepsilon_{2p}\pm\gamma_0|f(\mathbf k)|}{1\mp s_0|f(\mathbf k)|}
 $$
 
 其中查阅文献[<sup>[9]</sup>](#refer-anchor-9) 可得 $\bf{\gamma_0=3.033 eV,s_0=0.129eV}$，并取 $\varepsilon_{2p}=0eV$, 而 $\vert f(k)\vert$
@@ -853,7 +851,7 @@ $$
 有时会近似忽略 $s_0$,即令 $s_0=0eV$,此时可以将能带结构简化为：
 
 $$
-E_k=\pm\gamma_0|f(\mathbf k)|\tag{5.10}
+E_k=\pm\gamma_0|f(\mathbf k)|
 $$
 
 ### 5.3 能态密度
@@ -978,10 +976,10 @@ $$
 (0,\pm\frac{4\pi}{3}),(\pm\frac{4\pi}{3},0 ),(\pm\frac{2\pi}{\sqrt 3 a},\pm\frac{2\pi}{3a}),(\pm\frac{2\pi}{\sqrt 3 a},\mp\frac{2\pi}{3a})
 $$
 
-在 $K,K'$ 点附近对(5.10)进行 $Taylor$ 展开，忽略高阶小量，能够得到如能量与动量线性关系：
+在 $K,K'$ 点附近进行 $Taylor$ 展开，忽略高阶小量，能够得到如能量与动量线性关系：
 
 $$
-E_{\pm}=\pm\frac{\sqrt3\gamma_0 a}{2}\sqrt{(k_x-k_{Kx})^2+(k_y-k_{Ky})^2}=\pm v_F\hbar |\mathbf {k-k_K}|\tag{5.11}
+E_{\pm}=\pm\frac{\sqrt3\gamma_0 a}{2}\sqrt{(k_x-k_{Kx})^2+(k_y-k_{Ky})^2}=\pm v_F\hbar |\mathbf {k-k_K}|
 $$
 
 其中 $v_F\approx9.8\times 10^5 m/s\approx c/100 $，接近光速 
@@ -989,7 +987,7 @@ $$
 在描述电子运动时，我们可以把一个在晶格内运动的电子等效为一个在自由空间中运动的电子。类似地引入有效质量的概念，将晶体中的场对于电子的影响等效于自由空间运动的电子的质量 $\frac1{m^*}\sim\frac{d^2 E}{dk^2}$ ，由于色散关系为线性，且在能量为零的点对称，导致 E(k) 在 K 点不连续，导致二阶导数无穷大，电子的有效质量为零。所以此时用薛定谔方程来描述粒子的运动已无效，应该运用引入了相对论效应的狄拉克方程来描述。
 
 $$
-\widehat H|{\Psi_k}\rangle=iv_F\sigma\cdot\nabla|{\Psi_k}\rangle=E_k|{\Psi_k}\rangle\tag{5.12}
+\widehat H|{\Psi_k}\rangle=iv_F\sigma\cdot\nabla|{\Psi_k}\rangle=E_k|{\Psi_k}\rangle
 $$
 
 在 $K,K'$ 处的波函数为
@@ -1003,7 +1001,7 @@ $$
 $$
 {\Psi_{K'}(k)}=\frac1{\sqrt2}\begin{pmatrix}e^{i\theta_k/2}\\
 \pm e^{-i\theta_k/2}
-\end{pmatrix}={\Psi_K^*(k)}\tag{5.13}
+\end{pmatrix}={\Psi_K^*(k)}
 $$
 
 这样的狄拉克费米子波函数有着很显著的隧穿效应  [<sup>[2]</sup>](#refer-anchor-2) ，如下图所示，假设入射的波函数为 
