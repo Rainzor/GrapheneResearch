@@ -522,8 +522,8 @@ $$
 
 $$
 \begin{aligned}
-\int_0^{\omega_D}g(w)dw&=6N\\
-\omega_D&=\left(\frac{8\pi N}{S}\right)^{1/2}v_s\approx 1.6734\times10^{14} rad/s
+&\int_0^{\omega_D}g(w)dw=6N\\
+&\omega_D=\left(\frac{8\pi N}{S}\right)^{1/2}v_s\approx 1.6734\times10^{14} rad/s
 \end{aligned}
 $$
 
