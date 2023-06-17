@@ -656,11 +656,11 @@ $$
 由Schrödinger方程
 
 $$
-\widehat H\ket{\Psi_k}&=E_k\ket{\Psi_k}\tag{5.1}
+\widehat H\ket{\Psi_k}=E_k\ket{\Psi_k}\tag{5.1}
 $$
 
 $$
-\widehat H&=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
+\widehat H=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
 $$
 
 其中 $V(r)$ 是考虑所有晶格原子势场的结果; $u(r)$ 是一个中心碳原子的势场
