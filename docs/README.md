@@ -53,19 +53,19 @@
 设 $a_0=0.142 nm$,晶格常数为 $a=\sqrt3 a_0$,那么石墨烯的晶胞基矢可以写为
 
 $$
-\begin{align}
+\begin{aligned}
 \mathbf{a_1}= \frac{a}{2}(\sqrt 3,1)\\
 \mathbf{a_2}= \frac{a}{2}(\sqrt 3,-1)
-\end{align}
+\end{aligned}
 $$
 
 那么晶格的倒格矢定义为
 
 $$
-\begin{align}
+\begin{aligned}
 \mathbf{b_1}=\frac{2\pi}{a}(\frac{1}{\sqrt 3},1)\\
 \mathbf{b_2}=\frac{2\pi}{a}(\frac{1}{\sqrt 3},-1)
-\end{align}
+\end{aligned}
 $$
 
 倒格子空间中，格点之间的最小间距是： $b_0=\frac{4\pi}{3\sqrt3a_0}$
@@ -73,11 +73,11 @@ $$
 ### 2.1 最近邻矢量
 
 $$
-\begin{align}
+\begin{aligned}
 \delta_1=\frac{a_0}{2}(1,\sqrt3)\\
 \delta_2=\frac{a_0}{2}(1,-\sqrt3)\\
 \delta_3=-a_0(1,0)
-\end{align}
+\end{aligned}
 $$
 
 ### 2.2 化学键 
@@ -152,10 +152,10 @@ $$
 对于上述微分方程，由于一个原胞中含有两个独立的格点 $A,B\in R^3$，所以设试探解为
 
 $$
-\begin{align}
+\begin{aligned}
 u^A=A\exp[i(\mathbf{k\cdot (r-r_{Ai})}-wt)] \\ 
 u^B=B\exp[i(\mathbf{k\cdot (r-r_{Bi})}-wt)]
-\end{align}
+\end{aligned}
 $$
 
 代入微分方程 ，如果假设 $u_i$ 是 $A$ 原子，且由于所有原子质量 $M_i$ 都一样，得到
@@ -554,10 +554,10 @@ $$
 所以对态密度矩阵进行修正，考虑二次色散关系
 
 $$
-\begin{align}
+\begin{aligned}
 w_{ZA}=\alpha q^2\\
 g_{ZA}(w)=\frac{S}{4\pi \alpha}
-\end{align}
+\end{aligned}
 $$
 
 那么此时总态密度函数可以写作
@@ -644,11 +644,11 @@ $$
 如果按照Sommerfeld的自由电子气理论，可以计算二维石墨烯结构在T=0K 处的费米能、费米半径、费米速度：
 
 $$
-\begin{align}
+\begin{aligned}
 k_F=\sqrt{4\pi n}=1.54\times10^{10} m^{-1}\\ 
 E_F=\frac{\hbar^2k_F^2}{2m}=9.14eV\\ 
 v_F=\frac{\hbar k_F}{m}=1.78\times10^6m/s
-\end{align}
+\end{aligned}
 $$
 
 不过石墨烯并不是经典意义上的金属，其费米半径是大于第一布里渊区心到边界的距离 
@@ -659,7 +659,7 @@ $$
 
 ### 5.2 紧束缚近似
 
-按照紧束缚近似，认为电子主要在原子附近，下面考虑 $\pi $ 电子的能带, 设总本征态为 $$\vert{\Psi}\rangle$$
+按照紧束缚近似，认为电子主要在原子附近，下面考虑 $\pi $ 电子的能带, 设总本征态为 $\vert{\Psi}\rangle$
 
 由Schrödinger方程
 
@@ -679,11 +679,11 @@ $$
 按照紧束缚近似理论，考虑总本征态 $$\vert{\Psi } \rangle $$ 是A原子和B原子本征态 $\vert\phi\rangle$ 的叠加：
 
 $$
-\begin{align}
+\begin{aligned}
 |{\Psi_k}\rangle=C_A|{\phi_k^A}\rangle+C_B|{\phi_k^B}\rangle\\
 |{\phi_k^A}\rangle=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\
 |{\phi_k^B}\rangle=\frac1{\sqrt N}\sum_{R_B}e^{ikR_B}\varphi(r-R_B)
-\end{align}
+\end{aligned}
 $$
 
 其中 $\vert \phi\rangle$ 是一个孤立电子和原子核之间的 $2p$轨道的本征态
@@ -695,21 +695,21 @@ $$
 对Schrödinger方程分别左乘 $\langle{\phi_k^A}\vert,\langle{\phi_k^B\vert}$，得到如下形式的方程组
 
 $$
-\begin{align}
+\begin{aligned}
 (H_{AA}-E_kS_{AA})C_A+(H_{AB}-E_kS_{AB})C_B=0\\ 
 (H_{BA}-E_kS_{BA})C_A+(H_{BB}-E_kS_{BB})C_B=0
-\end{align}
+\end{aligned}
 $$
 
 如果写成矩阵的形式：
 
 $$
-\begin{align}
+\begin{aligned}
 (H-E_kS)
 \begin{bmatrix} C_A \\ 
 C_B
 \end{bmatrix}=0
-\end{align}
+\end{aligned}
 $$
 
 下面分别来看 $H_{\alpha\beta},S_{\alpha\beta}$ 的表达式: ($\alpha,\beta \in\{A,B\}$)
@@ -746,11 +746,11 @@ $$
 </div>
 
 $$
-\begin{align}
+\begin{aligned}
 \delta_1=\frac{a_0}{2}(1,\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},1)\\ 
 \delta_2=\frac{a_0}{2}(1,-\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},-1)\\ 
 \delta_3=-a_0(1,0)=-a_0(\frac{1}{\sqrt 3},0)
-\end{align}
+\end{aligned}
 $$
 
 所以可以得到：
@@ -787,11 +787,11 @@ $$
 同样得道理可以得到：
 
 $$
-\begin{align}
+\begin{aligned}
 S_{AA}=S_{BB}=1\\
 S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\
 S_0=-\langle{\varphi(r)}||{\varphi(r-\delta)}\rangle
-\end{align}
+\end{aligned}
 $$
 
 结合式有解条件以及上面的讨论，有
@@ -1044,11 +1044,11 @@ $$
 其中 
 
 $$
-\begin{align}
+\begin{aligned}
 q_x=\sqrt{(V_0-E)^2/v_F^2-k_y^2}\\
 \phi=\arctan(k_y/k_x)\\
 \theta=\arctan(k_y/q_x)
-\end{align}
+\end{aligned}
 $$
 
 即使在 $\vert V_0\vert\gg \vert E\vert$时， 由边界条件得到穿透率为
