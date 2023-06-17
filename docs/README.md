@@ -74,7 +74,6 @@ $$
 \delta_2=\frac{a_0}{2}(1,-\sqrt3)\\
 \delta_3=-a_0(1,0)
 \end{align}
-
 $$
 
 ### 2.2 化学键 
@@ -658,8 +657,8 @@ $$
 
 $$
 \begin{align}
-\widehat H\ket{\Psi_k}=E_k\ket{\Psi_k}\\ 
-\widehat H=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
+\widehat H\ket{\Psi_k}&=E_k\ket{\Psi_k}\\ 
+\widehat H&=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
 \end{align}
 \tag{5.1}
 $$
@@ -670,9 +669,9 @@ $$
 
 $$
 \begin{align}
-\ket{\Psi_k}=C_A\ket{\phi_k^A}+C_B\ket{\phi_k^B}\\ 
-\ket{\phi_k^A}=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\ 
-\ket{\phi_k^B}=\frac1{\sqrt N}\sum_{R_B}e^{ikR_B}\varphi(r-R_B)
+&\ket{\Psi_k}=C_A\ket{\phi_k^A}+C_B\ket{\phi_k^B}\\ 
+&\ket{\phi_k^A}=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\ 
+&\ket{\phi_k^B}=\frac1{\sqrt N}\sum_{R_B}e^{ikR_B}\varphi(r-R_B)
 \end{align}
 $$
 
