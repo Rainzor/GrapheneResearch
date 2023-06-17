@@ -657,7 +657,6 @@ $$
 
 $$
 \widehat H\ket{\Psi_k}&=E_k\ket{\Psi_k}\tag{5.1}
-
 $$
 
 $$
