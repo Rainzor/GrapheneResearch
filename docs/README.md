@@ -53,15 +53,19 @@
 设 $a_0=0.142 nm$,晶格常数为 $a=\sqrt3 a_0$,那么石墨烯的晶胞基矢可以写为
 
 $$
+\begin{align}
 \mathbf{a_1}= \frac{a}{2}(\sqrt 3,1)\\
 \mathbf{a_2}= \frac{a}{2}(\sqrt 3,-1)
+\end{align}
 $$
 
 那么晶格的倒格矢定义为
 
 $$
+\begin{align}
 \mathbf{b_1}=\frac{2\pi}{a}(\frac{1}{\sqrt 3},1)\\
 \mathbf{b_2}=\frac{2\pi}{a}(\frac{1}{\sqrt 3},-1)
+\end{align}
 $$
 
 倒格子空间中，格点之间的最小间距是： $b_0=\frac{4\pi}{3\sqrt3a_0}$
@@ -660,7 +664,10 @@ $$
 $$
 
 $$
-\widehat H=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
+\begin{aligned}
+\widehat H&=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)\\
+&=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)
+\end{aligned}
 $$
 
 其中 $V(r)$ 是考虑所有晶格原子势场的结果; $u(r)$ 是一个中心碳原子的势场
@@ -714,7 +721,8 @@ $$
 
 $$
 \begin{aligned}
-H_{AB}&=\bra{\phi_k^A}\widehat H\ket{\phi_k^B}=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Bj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Bj})}\\
+H_{AB}&=\bra{\phi_k^A}\widehat H\ket{\phi_k^B}\\
+&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Bj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Bj})}
 \end{aligned}\tag{5.6}
 $$
 
@@ -766,9 +774,12 @@ $$
 同样得道理可以得到：
 
 $$
+\begin{align}
 S_{AA}=S_{BB}=1\\ 
 S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\ 
-S_0=-\bra{\varphi(r)}\ket{\varphi(r-\delta)}\tag{5.8}
+S_0=-\bra{\varphi(r)}\ket{\varphi(r-\delta)} 
+\end{align}
+\tag{5.8}
 $$
 
 结合式有解条件以及上面的讨论，有
