@@ -681,10 +681,10 @@ $$
 
 $$
 \begin{aligned}
-H_{AA}&=\bra{\phi_k^A}\widehat H\ket{\phi_k^A}=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Aj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Aj})}\\
+H_{AA}=\bra{\phi_k^A}\widehat H\ket{\phi_k^A}&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Aj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Aj})}\\
 (只考虑自身相互作用)\quad&=\frac1N\sum_{i=1}^N\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Ai})}\\
 &\approx\varepsilon_{2p}
-\end{aligned}\tag{5.5}
+\end{aligned}
 $$
 
 同理 $H _ {BB}\approx\varepsilon _ {2p}$
@@ -709,7 +709,7 @@ $$
 \delta_3=-a_0(1,0)=-a_0(\frac{1}{\sqrt 3},0)
 $$
 
-所以(5.6)可以得到：
+所以可以得到：
 
 $$
 \begin{aligned}
@@ -748,7 +748,7 @@ S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\
 S_0=-\bra{\varphi(r)}\ket{\varphi(r-\delta)}\tag{5.8}
 $$
 
-结合（5.4）式有解条件以及（5.5）（5.7）（5.8），有
+结合式有解条件以及上面的讨论，有
 
 
 $$
@@ -782,7 +782,7 @@ $$
 |f(\mathbf k)|=\sqrt{1+4\cos(\sqrt3k_xa/2)\cos(k_ya/2)+4\cos^2(k_ya/2)}
 $$
 
-根据(5.9)可以画出 $\pi$ 轨道的能带结构（ `energy_band.m`）
+根据 $E_k$ 表达式 可以画出 $\pi$ 轨道的能带结构（ `energy_band.m`）
 
 <div align=center>
     <img style = "
