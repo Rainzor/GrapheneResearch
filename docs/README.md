@@ -659,12 +659,12 @@ $$
 
 ### 5.2 紧束缚近似
 
-按照紧束缚近似，认为电子主要在原子附近，下面考虑 $\pi$ 电子的能带, 设总本征态为 $\ket{\Psi}$
+按照紧束缚近似，认为电子主要在原子附近，下面考虑 $\pi $ 电子的能带, 设总本征态为 $$\vert{\Psi}\rangle$$
 
 由Schrödinger方程
 
 $$
-\widehat H\ket{\Psi_k}=E_k\ket{\Psi_k}\tag{5.1}
+\widehat H|{\Psi_k}\rangle=E_k|{\Psi_k}\rangle\tag{5.1}
 $$
 
 设 $V(r)$ 是考虑所有晶格原子势场的结果, $u(r)$ 是一个中心碳原子的势场,那么有
@@ -676,23 +676,23 @@ $$
 \end{aligned}
 $$
 
-按照紧束缚近似理论，考虑总本征态 $\ket{\Psi }$ 是A原子和B原子本征态 $\ket\phi$ 的叠加：
+按照紧束缚近似理论，考虑总本征态 $$\vert{\Psi } \rangle $$ 是A原子和B原子本征态 $\vert\phi\rangle$ 的叠加：
 
 $$
 \begin{align}
-&\ket{\Psi_k}=C_A\ket{\phi_k^A}+C_B\ket{\phi_k^B}\\ 
-&\ket{\phi_k^A}=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\ 
-&\ket{\phi_k^B}=\frac1{\sqrt N}\sum_{R_B}e^{ikR_B}\varphi(r-R_B)
+|{\Psi_k}\rangle=C_A|{\phi_k^A}\rangle+C_B|{\phi_k^B}\rangle\\
+|{\phi_k^A}\rangle=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\
+|{\phi_k^B}\rangle=\frac1{\sqrt N}\sum_{R_B}e^{ikR_B}\varphi(r-R_B)
 \end{align}
 $$
 
-其中 $\ket \phi$ 是一个孤立电子和原子核之间的 $2p$轨道的本征态
+其中 $\vert \phi\rangle$ 是一个孤立电子和原子核之间的 $2p$轨道的本征态
 
 $$
-\widehat H\ket\varphi=-\frac{\hbar^2}{2m}\widehat p^2+u(\widehat r)\ket{\varphi}=\varepsilon_{2p}\ket\varphi\tag{5.2}
+\widehat H|\varphi\rangle=-\frac{\hbar^2}{2m}\widehat p^2+u(\widehat r)|\varphi\rangle=\varepsilon_{2p}|\varphi\rangle
 $$
 
-对(5.1)的公式分别左乘 $\bra{\phi_k^A},\bra{\phi_k^B}$，得到如下形式的方程组
+对(5.1)的公式分别左乘 $\langle{\phi_k^A}\vert,\langle{\phi_k^B\vert}$，得到如下形式的方程组
 
 $$
 \begin{align}
@@ -718,12 +718,13 @@ $$
 对于 $H_{AA}$，如果只考虑自身相互作用，有如下表达
 
 $$
+\begin{equation}
 \begin{aligned}
-H_{AA}&=\bra{\phi_k^A}\widehat H\ket{\phi_k^A}\\
-&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Aj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Aj})}\\
-\quad&=\frac1N\sum_{i=1}^N\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Ai})}\\
+H_{AA}=\langle{\phi_k^A}|\widehat H|{\phi_k^A}\rangle&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Aj})}\langle\varphi(r-R_{Ai})|\widehat H|{\varphi(r-R_{Aj})\rangle)}\\
+(只考虑自身相互作用)\quad&=\frac1N\sum_{i=1}^N\langle\varphi(r-R_{Ai})|\widehat H|\varphi(r-R_{Ai}\rangle\\
 &\approx\varepsilon_{2p}
 \end{aligned}
+\end{equation}
 $$
 
 同理 $H _ {BB}\approx\varepsilon _ {2p}$
@@ -731,10 +732,13 @@ $$
 对于 $H _ { AB}$，有如下表达
 
 $$
+\begin{equation}
 \begin{aligned}
-H_{AB}&=\bra{\phi_k^A}\widehat H\ket{\phi_k^B}\\
-&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Bj})}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Bj})}
-\end{aligned}\tag{5.6}
+H_{AB}&=\langle{\phi_k^A}|\widehat H|{\phi_k^B}\rangle\\
+
+&=\frac1N\sum_{i=1}^N\sum_{j=1}^Ne^{ik(R_{Ai}-R_{Bj})}\langle\varphi(r-R_{Ai})|\widehat H|\varphi(r-R_{Bj})\rangle\\
+\end{aligned}
+\end{equation}
 $$
 
 对于此表达式，只考虑最邻近原子相互作用，如下:
@@ -755,7 +759,7 @@ $$
 
 $$
 \begin{aligned}
-H_{AB}&=\frac1N\sum_i\sum_{\delta_i}e^{ik\delta_i}\bra{\varphi(r-R_{Ai})}\widehat H\ket{\varphi(r-R_{Bj})}\\
+H_{AB}&=\frac1N\sum_i\sum_{\delta_i}e^{ik\delta_i}\langle\varphi(r-R_{Ai})|\widehat H|\varphi(r-R_{Bj})\rangle\\
 &=-\frac{\gamma_0}{N}\sum_if(\mathbf k)=-\gamma_0f(\mathbf k)
 \end{aligned}\tag{5.7}
 $$
@@ -764,9 +768,9 @@ $$
 
 $$
 \begin{aligned}
-\gamma_0&=-\bra{\varphi(r-R_{Ai})}\widehat H \ket{\varphi(r-R_{Bj})}\\
-&=-\bra{\varphi(r)}\widehat H \ket{\varphi(r+(R_{A_i}-R_{Bj})}\\
-&=-\bra{\varphi(r)}\widehat H \ket{\varphi(r-\delta)}\\
+\gamma_0&=-\langle\varphi(r-R_{Ai})|\widehat H |\varphi(r-R_{Bj})\rangle\\
+&=-\langle{\varphi(r)}|\widehat H |{\varphi(r+(R_{A_i}-R_{Bj})}\rangle\\
+&=-\langle{\varphi(r)}|\widehat H |{\varphi(r-\delta)}\rangle\\
 \end{aligned}
 $$
 
@@ -786,9 +790,9 @@ $$
 
 $$
 \begin{align}
-&S_{AA}=S_{BB}=1\\ 
-&S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\ 
-&S_0=-\bra{\varphi(r)}\ket{\varphi(r-\delta)} 
+S_{AA}=S_{BB}=1\\
+S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\
+S_0=-\langle{\varphi(r)}||{\varphi(r-\delta)}\rangle
 \end{align}
 \tag{5.8}
 $$
@@ -986,7 +990,7 @@ $$
 在描述电子运动时，我们可以把一个在晶格内运动的电子等效为一个在自由空间中运动的电子。类似地引入有效质量的概念，将晶体中的场对于电子的影响等效于自由空间运动的电子的质量 $\frac1{m^*}\sim\frac{d^2 E}{dk^2}$ ，由于色散关系为线性，且在能量为零的点对称，导致 E(k) 在 K 点不连续，导致二阶导数无穷大，电子的有效质量为零。所以此时用薛定谔方程来描述粒子的运动已无效，应该运用引入了相对论效应的狄拉克方程来描述。
 
 $$
-\widehat H\ket{\Psi_k}=iv_F\sigma\cdot\nabla\ket{\Psi_k}=E_k\ket{\Psi_k}\tag{5.12}
+\widehat H|{\Psi_k}\rangle=iv_F\sigma\cdot\nabla|{\Psi_k}\rangle=E_k|{\Psi_k}\rangle\tag{5.12}
 $$
 
 在 $K,K'$ 处的波函数为
