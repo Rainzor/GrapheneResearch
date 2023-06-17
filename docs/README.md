@@ -269,7 +269,7 @@ $$
 而其他的原子的张量矩阵可以通过旋转变换矩阵来实现
 
 $$
-K^{(A,B_m)}=U_mK^{(A,B_1)}U_m\quad (m=2,3)
+K^{(A,B_m)}=U_m^*K^{(A,B_1)}U_m\quad (m=2,3)
 $$
 
 其中旋转矩阵 $U_m$ 为
@@ -521,8 +521,10 @@ $$
 由于有N个原胞，每个原胞有2个原子，自由度为6，所以总振动模式有 $6N$个，所以有：
 
 $$
+\begin{align}
 \int_0^{\omega_D}g(w)dw=6N\\
 \omega_D=\left(\frac{8\pi N}{S}\right)^{1/2}v_s\approx 1.6734\times10^{14} rad/s
+\end{align}
 $$
 
 有此得到 $Debye$ 温度 $T_D=\frac{\hbar w_D}{k_B}\approx1273.24 K$
@@ -552,8 +554,10 @@ $$
 所以对态密度矩阵进行修正，考虑二次色散关系
 
 $$
+\begin{align}
 w_{ZA}=\alpha q^2\\
 g_{ZA}(w)=\frac{S}{4\pi \alpha}
+\end{align}
 $$
 
 那么此时总态密度函数可以写作
