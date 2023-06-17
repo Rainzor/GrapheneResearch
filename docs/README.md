@@ -704,7 +704,13 @@ $$
 如果写成矩阵的形式：
 
 $$
-(H-E_kS)\begin{bmatrix}C_A \\ C_B\end{bmatrix}=0\tag{5.4}
+\begin{align}
+(H-E_kS)
+\begin{bmatrix} C_A \\ 
+C_B
+\end{bmatrix}=0
+\end{align}
+\tag{5.4}
 $$
 
 下面分别来看 $H_{\alpha\beta},S_{\alpha\beta}$ 的表达式: ($\alpha,\beta \in\{A,B\}$)
