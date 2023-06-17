@@ -834,13 +834,13 @@ $$
 从文献中可以给出石墨烯能态密度 $\rho_g(\epsilon)$ 的表达式  [<sup>[10]</sup>](#refer-anchor-10)
 
 $$
-\rho_g(\epsilon)=\left\{\begin{aligned}
+\rho_g(\epsilon)=\left \{ \begin{aligned}
 &0\quad &\epsilon<-\frac D2\\
 &-\frac{\rho_m}{2\epsilon}\Delta\quad&-\frac D2<\epsilon<-\frac\Delta2\\
 &\frac{2\rho_m|\epsilon|}{\Delta}\quad&-\frac\Delta2<\epsilon<\frac\Delta2\\
 &\frac{\rho_m}{2\epsilon}\Delta\quad&\frac\Delta2<\epsilon<\frac D2\\
 &0\quad &\frac D2<\epsilon
-\end{aligned}\right.
+\end{aligned} \right.
 $$
 
 其中 $\rho_m=\frac{4}{[1+2\ln(D/\Delta)]\Delta},\Delta=6eV,D=18.4eV$ ，得到下图
