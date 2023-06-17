@@ -135,7 +135,7 @@ $$
 
 ##### 动力学矩阵
 
-根据晶格动力学，对于任意处于 $i$ 坐标处 $\mathbf u_i=(x_i,y_i,z_i)^T$,其对于含有N个原子的晶胞，受到的作用力可以写作
+根据晶格动力学，对于任意处于 $i$ 坐标处 $\mathbf u_i=(x_i,y_i,z_i)^T$,其对于含有N个原子的晶胞，运动方程可以写作
 
 $$
 M_i\frac{d^2u_i}{dt^2}=\sum_jK^{(i,j)}(u_j-u_i),\qquad(i=1,...,N)\tag {4.1}
@@ -146,11 +146,11 @@ $$
 对于上述微分方程，由于一个原胞中含有两个独立的格点 $A,B\in R^3$，所以设试探解为
 
 $$
-u^A=A\exp[i(\mathbf{k\cdot (r-r_{Ai})}-wt)]\\
+u^A=A\exp[i(\mathbf{k\cdot (r-r_{Ai})}-wt)] \\ 
 u^B=B\exp[i(\mathbf{k\cdot (r-r_{Bi})}-wt)]
 $$
 
-代入(4.5) ，如果假设 $u _ i $ 是 $A$ 原子，且由于所有原子质量 $M_i$ 都一样，得到
+代入微分方程 ，如果假设 $u_i$ 是 $A$ 原子，且由于所有原子质量 $M_i$ 都一样，得到
 
 $$
 -Mw^2I\mathbf u_i^A=\sum_{j_A}K^{(i,j_A)}(\mathbf u_{j_A}^A-\mathbf u_i^A)+\sum_{j_B}K^{(i,j_B)}(\mathbf u_{j_B}^B-\mathbf u_i^A)
@@ -420,7 +420,7 @@ $$
     <p> </p>
 </div>
 
-在频率较低处是声学支占主导，态密度近似为单调的线性函数形式，但是在$1.5\times10^{14}$ 以及在大于 $2.5\times 10^{14}$ 处光学支发挥作用，态密度激增。(文献中给出的态密度如下)[<sup>[7]</sup>](#refer-anchor-7) 
+在频率较低处是声学支占主导，态密度近似为单调的线性函数形式，但是在 $1.5\times10^{14}$ 以及在大于 $2.5\times 10^{14}$ 处光学支发挥作用，态密度激增。(文献中给出的态密度如下)[<sup>[7]</sup>](#refer-anchor-7) 
 
 <div align=center>
     <img style = "
@@ -633,7 +633,11 @@ E_F=\frac{\hbar^2k_F^2}{2m}=9.14eV\\
 v_F=\frac{\hbar k_F}{m}=1.78\times10^6m/s
 $$
 
-不过石墨烯并不是经典意义上的金属，其费米半径是大于第一布里渊区心到边界的距离 $k_{min}=\pi/a\approx1.28\times10^{10}m^{-1}$
+不过石墨烯并不是经典意义上的金属，其费米半径是大于第一布里渊区心到边界的距离 
+
+$$
+k_{min}=\pi/a\approx1.28\times10^{10}m^{-1}
+$$
 
 ### 5.2 紧束缚近似
 
@@ -642,7 +646,7 @@ $$
 由Schrödinger方程
 
 $$
-\widehat H\ket{\Psi_k}=E_k\ket{\Psi_k}\\
+\widehat H\ket{\Psi_k}=E_k\ket{\Psi_k}\\ 
 \widehat H=-\frac{\hbar^2}{2m}\widehat p^2+V(\widehat r)=-\frac{\hbar^2}{2m}\widehat p^2+\sum_{R_A}u(\widehat r-R_A)+\sum_{R_B}u(\widehat r-R_B)\tag{5.1}
 $$
 
@@ -651,8 +655,8 @@ $$
 按照紧束缚近似理论，考虑总本征态 $\ket{\Psi }$ 是A原子和B原子本征态 $\ket\phi$ 的叠加：
 
 $$
-\ket{\Psi_k}=C_A\ket{\phi_k^A}+C_B\ket{\phi_k^B}\\
-\ket{\phi_k^A}=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\
+\ket{\Psi_k}=C_A\ket{\phi_k^A}+C_B\ket{\phi_k^B}\\ 
+\ket{\phi_k^A}=\frac1{\sqrt N}\sum_{R_A}e^{ikR_A}\varphi(r-R_A)\\ 
 \ket{\phi_k^B}=\frac1{\sqrt N}\sum_{R_B}e^{ikR_B}\varphi(r-R_B)
 $$
 
@@ -662,10 +666,10 @@ $$
 \widehat H\ket\varphi=-\frac{\hbar^2}{2m}\widehat p^2+u(\widehat r)\ket{\varphi}=\varepsilon_{2p}\ket\varphi\tag{5.2}
 $$
 
-对 （5.1）的公式分别左乘 $\bra{\phi_k^A},\bra{\phi_k^B}$，得到如下形式的方程组
+对(5.1)的公式分别左乘 $\bra{\phi_k^A},\bra{\phi_k^B}$，得到如下形式的方程组
 
 $$
-(H_{AA}-E_kS_{AA})C_A+(H_{AB}-E_kS_{AB})C_B=0\\
+(H_{AA}-E_kS_{AA})C_A+(H_{AB}-E_kS_{AB})C_B=0\\ 
 (H_{BA}-E_kS_{BA})C_A+(H_{BB}-E_kS_{BB})C_B=0\tag{5.3}
 $$
 
@@ -704,8 +708,8 @@ $$
 </div>
 
 $$
-\delta_1=\frac{a_0}{2}(1,\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},1)\\
-\delta_2=\frac{a_0}{2}(1,-\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},-1)\\
+\delta_1=\frac{a_0}{2}(1,\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},1)\\ 
+\delta_2=\frac{a_0}{2}(1,-\sqrt3)=\frac{a}{2}(\frac{1}{\sqrt3},-1)\\ 
 \delta_3=-a_0(1,0)=-a_0(\frac{1}{\sqrt 3},0)
 $$
 
@@ -743,8 +747,8 @@ $$
 同样得道理可以得到：
 
 $$
-S_{AA}=S_{BB}=1\\
-S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\
+S_{AA}=S_{BB}=1\\ 
+S_{AB}=S_{BA}^*=-S_0f(\mathbf k)\\ 
 S_0=-\bra{\varphi(r)}\ket{\varphi(r-\delta)}\tag{5.8}
 $$
 
